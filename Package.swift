@@ -7,17 +7,14 @@ let package = Package(
     products: [
         .library(
             name: "YandexMapsMobileSPM",
-            targets: ["YandexMapsMobileSPM", "YandexMapsMobileSPMWrapper"]
+            targets: ["YandexMapsMobileSPM"]
         )
     ],
     targets: [
-        .target(
-            name: "YandexMapsMobileSPMWrapper",
-            path: "YandexMapsMobileSPMTarget"
-        ),
         .binaryTarget(
             name: "YandexMapsMobileSPM",
-            path: "YandexMapsMobileSPM.xcframework"
+            url: "",
+            checksum: ""
         )
     ]
 )
