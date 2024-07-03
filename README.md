@@ -1,7 +1,7 @@
 # Documentation
 ### Full MapKit version :fire:
 
-[![Latest release](https://img.shields.io/github/v/release/Hank2354/YandexMapsMobileSPM?color=brightgreen&label=version)](https://github.com/Hank2354/YandexMapsMobileSPM/releases/latest)
+[![Latest release](https://img.shields.io/github/release/Hank2354/YandexMapsMobileSPM?color=brightgreen&label=version)](https://github.com/Hank2354/YandexMapsMobileSPM/releases/latest)
 [![](https://img.shields.io/badge/SPM-supported-DE5C43.svg?color=brightgreen)](https://swift.org/package-manager/)
 
 ## This solution implements intalling YandexMapsMobile using Swift Package Manager instead base install guide using CocoaPods
