@@ -19,7 +19,7 @@ Open a Xcode project
 ### Step №2 Add linker flags ‼️
 
 Open project settings in xcode file
-in "Other linker flags" set this *(Actually version 4.6.1)*
+in "Other linker flags" set this *(⚠️ Actually version 4.6.1)*
 ```
 $(inherited) -ObjC -lresolv -l"c++" -framework "CoreFoundation" -framework "Foundation" -framework "CoreLocation" -framework "UIKit" -framework "OpenGLES" -framework "SystemConfiguration" -framework "CoreGraphics" -framework "QuartzCore" -framework "Security" -framework "CoreTelephony" -framework "DeviceCheck" -framework "CoreMotion"
 ```
